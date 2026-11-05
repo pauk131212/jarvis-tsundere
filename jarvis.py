@@ -81,6 +81,7 @@ stt_model = None
 
 def load_stt():
     global stt_model
+    os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
     from faster_whisper import WhisperModel
     stt_model = WhisperModel("small", device="cpu", compute_type="int8")
 

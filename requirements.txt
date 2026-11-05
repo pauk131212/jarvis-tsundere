@@ -1,0 +1,4 @@
+ollama>=0.4
+sounddevice>=0.4.6
+torch>=2.0
+faster-whisper>=1.0

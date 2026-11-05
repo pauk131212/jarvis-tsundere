@@ -5,7 +5,7 @@ import webbrowser
 import sounddevice as sd
 import ollama
 
-VOICE_INPUT = True
+VOICE_INPUT = False
 VOICE_OUTPUT = True
 RECORD_SECONDS = 5
 MODEL_NAME = "qwen2.5:3b"
